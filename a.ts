@@ -1,4 +1,4 @@
-import { cn as defaultTrans } from 'defaults'
+import { cn as defaultTrans } from './b'
 import { cn as ccn} from './c'
 
 

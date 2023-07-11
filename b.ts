@@ -1,3 +1,3 @@
 export const cn = {
-  a: 'cjs'
+  天: '我是天'
 }
