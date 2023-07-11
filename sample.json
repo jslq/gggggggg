@@ -1,0 +1,151 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 172,
+  "body": [
+    {
+      "type": "ImportDeclaration",
+      "start": 0,
+      "end": 45,
+      "specifiers": [
+        {
+          "type": "ImportSpecifier",
+          "start": 9,
+          "end": 27,
+          "imported": {
+            "type": "Identifier",
+            "start": 9,
+            "end": 11,
+            "name": "cn"
+          },
+          "local": {
+            "type": "Identifier",
+            "start": 15,
+            "end": 27,
+            "name": "defaultTrans"
+          }
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 35,
+        "end": 45,
+        "value": "defaults",
+        "raw": "'defaults'"
+      }
+    },
+    {
+      "type": "ImportDeclaration",
+      "start": 46,
+      "end": 79,
+      "specifiers": [
+        {
+          "type": "ImportSpecifier",
+          "start": 55,
+          "end": 64,
+          "imported": {
+            "type": "Identifier",
+            "start": 55,
+            "end": 57,
+            "name": "cn"
+          },
+          "local": {
+            "type": "Identifier",
+            "start": 61,
+            "end": 64,
+            "name": "ccn"
+          }
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 71,
+        "end": 79,
+        "value": "./c.js",
+        "raw": "'./c.js'"
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 82,
+      "end": 151,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 88,
+          "end": 151,
+          "id": {
+            "type": "Identifier",
+            "start": 88,
+            "end": 92,
+            "name": "tesu"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 95,
+            "end": 151,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 99,
+                "end": 138,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 99,
+                  "end": 110,
+                  "name": "translation"
+                },
+                "value": {
+                  "type": "ObjectExpression",
+                  "start": 112,
+                  "end": 138,
+                  "properties": [
+                    {
+                      "type": "SpreadElement",
+                      "start": 118,
+                      "end": 133,
+                      "argument": {
+                        "type": "Identifier",
+                        "start": 121,
+                        "end": 133,
+                        "name": "defaultTrans"
+                      }
+                    }
+                  ]
+                },
+                "kind": "init"
+              },
+              {
+                "type": "SpreadElement",
+                "start": 142,
+                "end": 148,
+                "argument": {
+                  "type": "Identifier",
+                  "start": 145,
+                  "end": 148,
+                  "name": "ccn"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExportDefaultDeclaration",
+      "start": 153,
+      "end": 172,
+      "declaration": {
+        "type": "Identifier",
+        "start": 168,
+        "end": 172,
+        "name": "tesu"
+      }
+    }
+  ],
+  "sourceType": "module"
+}

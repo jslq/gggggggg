@@ -1,0 +1,17 @@
+{
+  "name": "rollup-named-module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -f cjs -o dist/index.js -i a.js --esModule",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "acorn": "7",
+    "acorn-walk": "^8.2.0",
+    "rollup": "^3.26.2"
+  }
+}
